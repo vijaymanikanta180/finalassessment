@@ -8,7 +8,7 @@ pipeline {
             steps { 
                 git branch: 'main',
                 credentialsId: 'vijaymanikanta180',
-                url: 'https://github.com/vijaymanikanta180/docker_apache2_file.git' 
+                url: 'https://github.com/vijaymanikanta180/finalassessmentversion2.git' 
             } 
         }
        
