@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull git code') {
             steps { 
-                git branch: 'main',
+                git branch: 'branchversion1',
                 credentialsId: 'vijaymanikanta180',
                 url: 'https://github.com/vijaymanikanta180/finalassessmentversion2.git' 
             } 
